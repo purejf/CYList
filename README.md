@@ -1,4 +1,5 @@
 
+```
 typedef struct Node {
     int data;
     struct Node *next;
@@ -196,3 +197,4 @@ void test() {
         display(unionList(first, second));
     }
 }
+```
