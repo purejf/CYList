@@ -52,4 +52,16 @@ void test() {
         display(unionList(first, second));
     }
 }
+
+
+no head reverse
+    p q r;
+     p->next = null;
+     while (q) {
+        r = q->next;
+         q->next = p;
+         p = q;
+         q = r;
+     }
+     
 ```
